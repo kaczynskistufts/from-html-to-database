@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS users;
+CREATE DATABASE users;
+USE users;
+
+CREATE TABLE user_info (
+    user_id int NOT NULL AUTO_INCREMENT,
+    first_name varchar(255),
+    last_name varchar(255),
+    PRIMARY KEY (user_id)
+);
